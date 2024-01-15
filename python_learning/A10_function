@@ -1,0 +1,15 @@
+def print_n_time(s, n = 5):
+    if isinstance(n, int):
+        for _ in range(n):
+            print(s)
+    else:
+        pass
+
+def main():
+    print_n_time("hello, world")
+    print_n_time("hi")
+
+
+
+if __name__ == "__main__":
+    main()
