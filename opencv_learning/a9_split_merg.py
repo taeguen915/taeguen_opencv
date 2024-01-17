@@ -11,9 +11,7 @@ def main():
     # plt.imshow(r)
     plt.show()
        
-    cv2.imshow("lena", img)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+   
 
 
 if __name__ == "__main__":
